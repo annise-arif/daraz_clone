@@ -72,7 +72,7 @@ const HomePageSlider = () => {
 	};
 
 	return (
-		<Slider {...settings}>
+		<Slider {...settings} className='overflow-hidden'>
 			{SLIDER_ITEMS.map(({ id, imageURL, color }) => (
 				<div key={id}>
 					<div className={`h-full`} style={{ backgroundColor: color }}>

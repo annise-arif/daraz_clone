@@ -4,7 +4,7 @@ import Navbar from './Share/Navbar/Navbar';
 
 function App() {
 	return (
-		<div className='App '>
+		<div className='App'>
 			<Topbar />
 			<Navbar />
 			<Home />

@@ -10,17 +10,18 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("daisyui")],
+	plugins: [require('daisyui')],
 
-	  // daisyUI config (optional)
-	  daisyui: {
+	// daisyUI config (optional)
+	daisyui: {
 		styled: true,
 		themes: false,
 		base: true,
 		utils: true,
 		logs: true,
 		rtl: false,
-		prefix: "",
-		darkTheme: "white",
-	  },
+		prefix: '',
+		darkTheme: '#F5F5F5',
+	},
 };
+
