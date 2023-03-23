@@ -4,29 +4,35 @@ import Cart from '../../assets/Svg/cart.svg';
 import DownloadApp from '../../assets/Logo/img.png';
 const Header = () => {
 	return (
-		<div className='bg-white'>
-			<div className='flex gap-0 py-3.5 shadow-md shadow-black-200 mx-auto justify-center'>
-            <div className='logo mx-20 grow-0'>
-				<img src={Logo} alt='logo' width={'135px'} height={'41'} />
+		<div className='bg-white sticky top-0 mr-[1.5%]'>
+			<div className='flex gap-0 py-3 shadow-md shadow-black-200 mx-auto justify-center'>
+				<div className='logo ml-[3%] mr-[3.7%] grow-0'>
+					<img src={Logo} alt='logo' width={'135px'} height={'41'} />
+				</div>
+
+				<div className='search-bar relative w-[36.6%]'>
+					<input
+						type='text'
+						placeholder='Search in Daraz'
+						className='bg-[#cfcfcf3d] placeholder:text-[14.4px] outline-none py-[11px] px-[19px] rounded-sm w-full'
+					/>
+					<button>
+						<div className='search-icon absolute top-[0%] left-[93%] bg-[#f57224] p-2.5 rounded-r-sm'>
+							<img src={Search} alt='search-svg' />
+						</div>
+					</button>
+				</div>
+
+				<div className='cart-icon mt-[0.8%] px-7'>
+					<img src={Cart} alt='cart-svg' />
+				</div>
+
+				<div className='download-app-img grow-0 px-7'>
+					<button>
+						<img width={'188px'} height={'45px'} src={DownloadApp} alt='downloadApp' />
+					</button>
+				</div>
 			</div>
-
-			<div className='search-bar relative w-2/6'>
-				<input
-					type='text'
-					placeholder='Search in Daraz'
-					className='bg-[#cfcfcf48] placeholder:text-[14.4px] outline-none py-[11px] px-[19px] rounded-sm w-full'
-				/>
-				<button>
-					<div className='search-icon absolute top-[0%] left-[93%] bg-[#f57224] p-2.5 rounded-r-sm'>
-						<img src={Search} alt='search-svg' />
-					</div>
-				</button>
-			</div>
-
-			<div className='cart-icon mt-3 px-8'><img src={Cart} alt="cart-svg" /></div>
-
-			<div className='download-app-img grow-0 px-8'><button><img width={'188px'} height={'45px'} src={DownloadApp} alt="downloadApp" /></button></div>
-            </div>
 		</div>
 	);
 };

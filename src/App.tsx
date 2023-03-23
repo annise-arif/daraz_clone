@@ -1,4 +1,5 @@
 import Topbar from './Components/Topbar/Topbar';
+import Home from './pages/Home/Home';
 import Navbar from './Share/Navbar/Navbar';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 		<div className='App '>
 			<Topbar />
 			<Navbar />
-			<input type="text"  placeholder='fjajsdfjadsfj' className='border mt-4 w-2/4'/>
+			<Home />
 		</div>
 	);
 }
