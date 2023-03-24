@@ -10,6 +10,7 @@ import img9 from '../../assets/img/banner/ff927767-47fe-4c79-b169-6f5af64a3312.j
 import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import NavMenu from '../NavMenu/NavMenu';
 
 const SLIDER_ITEMS = [
 	{
@@ -20,7 +21,7 @@ const SLIDER_ITEMS = [
 	{
 		id: 2,
 		imageURL: img2,
-		color: 'rgb(255, 255, 255)',
+		color: 'rgb(233, 234, 240)',
 	},
 	{
 		id: 3,
@@ -50,7 +51,7 @@ const SLIDER_ITEMS = [
 	{
 		id: 8,
 		imageURL: img8,
-		color: 'rgb(233, 234, 240)',
+		color: 'rgb(226, 228, 238)',
 	},
 	{
 		id: 9,
@@ -72,15 +73,20 @@ const HomePageSlider = () => {
 	};
 
 	return (
-		<Slider {...settings} className='overflow-hidden'>
-			{SLIDER_ITEMS.map(({ id, imageURL, color }) => (
-				<div key={id}>
-					<div className={`h-full`} style={{ backgroundColor: color }}>
-						<img src={imageURL} className='w-[51.5%] ml-[29.6%] mx-auto' />
+		<div className='home_page_banner_section realtive'>
+			<div className="nav_menu_section absolute z-10 left-[19%]">
+			   <NavMenu />
+			</div>
+			<Slider {...settings} className='overflow-hidden z-0'>
+				{SLIDER_ITEMS.map(({ id, imageURL, color }) => (
+					<div key={id}>
+						<div className={`h-full`} style={{ backgroundColor: color }}>
+							<img src={imageURL} className='w-[51.5%] ml-[29.3%] mx-auto' />
+						</div>
 					</div>
-				</div>
-			))}
-		</Slider>
+				))}
+			</Slider>
+		</div>
 	);
 };
 

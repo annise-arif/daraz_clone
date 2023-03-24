@@ -8,6 +8,7 @@ const Home = () => {
             <HomePageSlider />
             <ShopNow />
             <CardChannel />
+            
         </div>
     );
 };

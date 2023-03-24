@@ -24,4 +24,3 @@ module.exports = {
 		darkTheme: '#F5F5F5',
 	},
 };
-
