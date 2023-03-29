@@ -12,6 +12,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import NavMenu from '../NavMenu/NavMenu';
 
+
 const SLIDER_ITEMS = [
 	{
 		id: 1,
@@ -76,6 +77,7 @@ const HomePageSlider = () => {
 		<div className='home_page_banner_section realtive'>
 			<div className="nav_menu_section absolute z-10 left-[19%]">
 			   <NavMenu />
+			   
 			</div>
 			<Slider {...settings} className='overflow-hidden z-0'>
 				{SLIDER_ITEMS.map(({ id, imageURL, color }) => (

@@ -1,5 +1,6 @@
 import NAV_ITEMS from '../../API/constants';
 import { twMerge } from 'tailwind-merge';
+import { useState } from 'react';
 
 type Items = {
 	id: number;
@@ -15,15 +16,16 @@ type NavItemListProps = {
 };
 
 const NavItemList = ({ items, className, liClassName }: NavItemListProps) => {
+	const [hovered, setHovered] = useState(false);
 	return (
 		<ul
 			className={twMerge([
-				'bg-white shadow-lg py-[9.5px] w-[12.3rem] h-[21.5rem] text-[13px] text-[#757575]',
+				'bg-white shadow-lg py-[9.5px] w-[12.3rem] h-[21.4rem] text-[13px] text-[#757575]',
 				className,
 			])}
 		>
 			{items.map((item) => (
-				<li key={item.id} className={liClassName}>
+				<li key={item.id} className={liClassName} >
 					<a
 						className='py-[3.8px] pl-[8px] hover:text-[rgb(50,146,170)] flex justify-between group hover:bg-[rgb(236,239,241)]'
 						href='/'
@@ -49,7 +51,7 @@ const NavItemList = ({ items, className, liClassName }: NavItemListProps) => {
 
 const NavMenu = () => {
 	return (
-		<div className='realtive'>
+		<div className='relative'>
 			<NavItemList items={NAV_ITEMS} liClassName='group' />
 		</div>
 	);
