@@ -11,6 +11,7 @@ import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import NavMenu from '../NavMenu/NavMenu';
+import Test from '../NavMenu/test';
 
 
 const SLIDER_ITEMS = [
@@ -77,6 +78,7 @@ const HomePageSlider = () => {
 		<div className='home_page_banner_section realtive'>
 			<div className="nav_menu_section absolute z-10 left-[19%]">
 			   <NavMenu />
+			   {/* <Test /> */}
 			   
 			</div>
 			<Slider {...settings} className='overflow-hidden z-0'>

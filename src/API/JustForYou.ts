@@ -1,8 +1,8 @@
- const FLASH_SALE = [
+const FLASH_SALE = [
     {
         id: 1,
         img: "https://static-01.daraz.com.bd/p/117761c32b230bd70932aaa5954ed91c.jpg",
-        title: "Vikan 32 Inch Hd Led Tv 4K Supported Basic tv",
+        title: "Just For You title",
         new_price: "9699",
         old_price: "17000",
         purcent: '-42%',
