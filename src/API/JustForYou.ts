@@ -6,6 +6,7 @@ const FLASH_SALE = [
         new_price: "9699",
         old_price: "17000",
         purcent: '-42%',
+        
     },
     {
         id: 2,
@@ -14,6 +15,8 @@ const FLASH_SALE = [
         new_price: "159",
         old_price: "249",
         purcent: '-36%',
+        stars: 5,
+        reviews: 37,
     },
     {
         id: 3,
@@ -22,6 +25,8 @@ const FLASH_SALE = [
         new_price: "599",
         old_price: "1550",
         purcent: '-61%',
+        stars: 3.5,
+        reviews: 127,
     },
     {
         id: 4,
@@ -30,6 +35,8 @@ const FLASH_SALE = [
         new_price: "9699",
         old_price: "17000",
         purcent: '-51%',
+        stars: 4.7,
+        reviews: 533,
     },
     {
         id: 5,
@@ -38,6 +45,8 @@ const FLASH_SALE = [
         new_price: "84",
         old_price: "199",
         purcent: '-57%',
+        stars: 5,
+        reviews: 177,
     },
     {
         id: 6,
@@ -46,6 +55,8 @@ const FLASH_SALE = [
         new_price: "112",
         old_price: "149",
         purcent: '-24%',
+        stars: 5,
+        reviews: 467,
     },
 ];
 

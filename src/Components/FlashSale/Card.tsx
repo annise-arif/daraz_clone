@@ -15,7 +15,7 @@ const Card = ({ item }: cardData) => {
 			</figure>
 			<div className='card-body py-4 px-2'>
 				<p className='text-sm text-ellipsis overflow-hidden ...'>{item.title}</p>
-				<span className='text-orange-500'>৳{item.new_price}</span>
+				<span className='text-orange-600 text-[18px]'>৳{item.new_price}</span>
 				<p>
 					<span className='text-[11.5px] font-semibold text-gray-400 line-through mr-1.5'>
 						৳{item.old_price}
