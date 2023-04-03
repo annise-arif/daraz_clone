@@ -24,8 +24,8 @@ const Stars = ({ stars, reviews }: starType) => {
 	return(
         <div>
           <div className="icon-style flex">
-            <span className='flex text-orange-300 text-[11px] mt-2'>{ratingStar}</span>
-            <span className='ml-1 text-[12px] text-[#9e9e9e] mt-[6px]'>({reviews})</span>
+            <span className='flex text-[#faca51] text-[11px]'>{ratingStar}</span>
+            <span className='ml-1 text-[12px] text-[#9e9e9e] -mt-[3px]'>({reviews})</span>
           </div>
         </div>
     );

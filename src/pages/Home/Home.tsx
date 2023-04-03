@@ -4,6 +4,7 @@ import HomePageSlider from "../../Components/HomePageSlider/HomePageSlider";
 import ShopNow from "../../Components/ShopNow/ShopNow";
 import Categories from "../../Components/Categories/Categories.js";
 import JustForYou from "../../Components/JustForYou/JustForYou";
+import Footer from "../../Share/Footer/Footer";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <FlashSale />
             <Categories />
             <JustForYou />
+            <Footer />
         </div>
     );
 };
