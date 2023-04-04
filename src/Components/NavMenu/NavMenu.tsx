@@ -39,14 +39,14 @@ const RenderSingleItem = ({
   };
 
 
-const NavItemList = ({ data, level = 0, }: {data: typeof NAV_ITEMS; level?: number}) => {
+const NavItemList = ({ data, level = 0, }: any) => {
 	
 	return (
 		<ul
 			className='absolute top-0 bg-white shadow-lg py-[9.5px] w-[12.3rem] h-[21.4rem] text-[13px] text-[#757575]'
 		>
 			{
-				data.map(e => {
+				data.map((e: any) => {
 					return <RenderSingleItem key={e.id} data={e} level={level} />
 				})
 			}
