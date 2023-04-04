@@ -9,7 +9,7 @@ type cardData = {
 }[];
 const Card = ({ item }: cardData) => {
 	return (
-		<div className='card mt-2 flash_sale_card w-[11.75rem] rounded-none p-0 m-0 h-[18.140rem] bg-base-100 hover:shadow-[1px_3px_5px_0.6px_#00000024]'>
+		<div className='card cursor-pointer mt-2 flash_sale_card w-[11.75rem] rounded-none p-0 m-0 h-[18.140rem] bg-base-100 hover:shadow-[1px_3px_5px_0.6px_#00000024]'>
 			<figure>
 				<img src={item.img} alt='Shoes' />
 			</figure>

@@ -5,7 +5,6 @@ import Navbar from './Share/Navbar/Navbar';
 function App() {
 	return (
 		<div className='App'>
-			
 			<Navbar />
 			<Home />
 			<Footer />
