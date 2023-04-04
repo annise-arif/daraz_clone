@@ -16,7 +16,7 @@ const RenderSingleItem = ({
 	return (
 	  <React.Fragment>
 		<li
-		  className={`nav-item group top-0 left-[12rem]`}
+		  className={`nav-item group top-0`}
 		  onMouseOver={() => setHovered(true)}
 		  onMouseLeave={() => setHovered(false)}
 		>
@@ -43,7 +43,7 @@ const NavItemList = ({ data, level = 0, }: {data: typeof NAV_ITEMS; level?: numb
 	
 	return (
 		<ul
-			className='absolute left-[12rem] top-0 bg-white shadow-lg py-[9.5px] w-[12.3rem] h-[21.4rem] text-[13px] text-[#757575]'
+			className='absolute top-0 bg-white shadow-lg py-[9.5px] w-[12.3rem] h-[21.4rem] text-[13px] text-[#757575]'
 		>
 			{
 				data.map(e => {

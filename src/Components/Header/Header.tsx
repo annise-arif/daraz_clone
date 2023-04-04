@@ -4,13 +4,13 @@ import Cart from '../../assets/Svg/cart.svg';
 import DownloadApp from '../../assets/Logo/img.png';
 const Header = () => {
 	return (
-		<div className='bg-white sticky top-0 mr-[2%]'>
-			<div className='flex gap-0 py-[0.71rem] shadow-md shadow-black-200 mx-auto justify-center'>
-				<div className='logo ml-[3%] mr-[3.7%] grow-0'>
+		<div className='bg-white sticky top-0'>
+			<div className='flex gap-0 py-[0.71rem] pr-[1.3%] shadow-md shadow-black-200 mx-auto justify-center'>
+				<div className='logo ml-[3.3%] mr-[3.7%] grow-0'>
 					<img src={Logo} alt='logo' width={'135px'} height={'41'} />
 				</div>
 
-				<div className='search-bar relative w-[36.8%]'>
+				<div className='search-bar relative w-[36.7%]'>
 					<input
 						type='text'
 						placeholder='Search in Daraz'
@@ -29,7 +29,7 @@ const Header = () => {
 					</button>
 				</div>
 
-				<div className='download-app-img grow-0 px-7'>
+				<div className='download-app-img grow-0 pr-9 pl-6'>
 					<button>
 						<img width={'188px'} height={'45px'} src={DownloadApp} alt='downloadApp' />
 					</button>

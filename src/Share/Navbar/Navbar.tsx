@@ -1,8 +1,10 @@
 import Header from "../../Components/Header/Header";
+import Topbar from "../../Components/Topbar/Topbar";
 
 const Navbar = () => {
     return (
-        <div className="">
+        <div className="sticky top-0 z-20">
+            <Topbar />
             <Header />
         </div>
     );
