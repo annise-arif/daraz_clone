@@ -38,7 +38,7 @@ const FlashSale = () => {
 					</button>
 				</div>
 				<hr />
-				<div className='products pb-4 bg-white grid gap-3.5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 auto-cols-max h-auto mx-auto'>
+				<div className='products pb-4 bg-white grid gap-3.5 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 auto-cols-max h-auto mx-auto'>
 					{FLASH_SALE.map((item) => {
 						return <Card key={item.id} item={item} />;
 					})}

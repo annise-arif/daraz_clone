@@ -9,7 +9,7 @@ const Topbar = () => {
 						className='font-[500] text-xs lg:mr-[3.3%] sm:mr-2 hover:text-orange-400 hover:underline cursor-pointer'
 						key={item.id}
 					>
-						{item.item}
+						<a href={item.link}>{item.item}</a>
 					</li>
 				))}
 			</ul>

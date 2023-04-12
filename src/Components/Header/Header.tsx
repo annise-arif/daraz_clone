@@ -7,7 +7,7 @@ const Header = () => {
 		<div className='bg-white sticky top-0'>
 			<div className='flex gap-0 py-[0.71rem] pr-[1.3%] shadow-md shadow-black-200 mx-auto justify-center'>
 				<div className='logo ml-[3.3%] mr-[3.7%] grow-0'>
-					<img src={Logo} alt='logo' width={'135px'} height={'41'} />
+					<a href="/"><img src={Logo} alt='logo' width={'135px'} height={'41'} /></a>
 				</div>
 
 				<div className='search-bar relative w-[36.7%]'>
