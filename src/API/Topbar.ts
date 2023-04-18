@@ -27,7 +27,7 @@ const topbar = [
 	{
 		id: 6,
 		item: 'SIGNUP / LOGIN',
-		link: 'user/login',
+		link: '/login',
 	},
 	{
 		id: 7,

@@ -2,7 +2,7 @@ import topbar from '../../API/Topbar';
 
 const Topbar = () => {
 	return (
-		<div className='sm:d-none z-10'>
+		<div className='sm:d-none'>
 			<ul className='flex bg-[#ECECEC] lg:pl-[528px] lg:pr-60 py-[0.28rem]'>
 				{topbar.map((item) => (
 					<li

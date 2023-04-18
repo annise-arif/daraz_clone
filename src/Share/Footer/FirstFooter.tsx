@@ -3,7 +3,7 @@ const FirstFooter = () => {
 		<div className=' bg-[#2E2E54]'>
 			<footer className='footer grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-0 pt-4 pb-8 mx-auto w-[63%] text-white'>
 				<div className='footer_left'>
-					<span className='text-lg mb-1'>Customer Care</span>
+					<span className='text-lg mb-0'>Customer Care</span>
 					<a className='link link-hover text-[12px] font-[200] leading-[10px]'>Help Center</a>
 					<a className='link link-hover text-[12px] font-[200] leading-[10px]'>How to Buy</a>
 					<a className='link link-hover text-[12px] font-[200] leading-[10px]'>Returns & Refunds</a>

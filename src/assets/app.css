@@ -152,3 +152,19 @@
 .flash_sale_card{
 	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
 }
+
+/* login design */
+
+.login-main{
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+}
+
+/* Style items (options): */
+.select-items {
+	position: absolute;
+	background-color: DodgerBlue;
+	bottom: 80%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+  }

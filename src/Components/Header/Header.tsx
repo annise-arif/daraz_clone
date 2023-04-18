@@ -4,7 +4,7 @@ import Cart from '../../assets/Svg/cart.svg';
 import DownloadApp from '../../assets/Logo/img.png';
 const Header = () => {
 	return (
-		<div className='bg-white sticky top-0'>
+		<div className='bg-white'>
 			<div className='flex gap-0 py-[0.71rem] pr-[1.3%] shadow-md shadow-black-200 mx-auto justify-center'>
 				<div className='logo ml-[3.3%] mr-[3.7%] grow-0'>
 					<a href="/"><img src={Logo} alt='logo' width={'135px'} height={'41'} /></a>
