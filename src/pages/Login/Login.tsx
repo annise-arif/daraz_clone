@@ -1,12 +1,25 @@
 import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa';
+import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import auth from '../../firebase.init';
 
 const Login = () => {
+
+	const navigate = useNavigate();
+	const location = useLocation();
+	let from = location.state?.from?.pathname || "/";
+	const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+	if(loading){
+		return 'loading';
+	}
+	if (user) {
+		navigate(from, { replace: true});
+	}
 	return (
 		<div className='login-main bg-[#EFF0F5] h-[320px]] pb-8 font-[Roboto-Regular]'>
 			<div className='login-title pt-[2.9rem]'>
-				<div className='flex w-[810px] mx-auto justify-between lg:flex-row sm:flex-col'>
+				<div className='flex lg:w-[810px] mx-auto justify-between lg:flex-row sm:flex-col'>
 					<h3 className='text-[22px] text-[#424242]'>Welcome to Daraz! Please login.</h3>
 					<div className='login-other -mb-2 text-[12px] text-[#757575] flex flex-row'>
 						<div className='mt-[8px]'>
@@ -19,8 +32,8 @@ const Login = () => {
 					</div>
 				</div>
 			</div>
-			<div className='login-card flex mt-[27px] pt-[14px] pl-[25px] pr-[50px] d-[50px] mx-auto w-[810px] h-[264.8px] bg-[#FFFFFF]'>
-				<div className='phn-password mr-[50px] w-[380px] h-[182.8px]'>
+			<div className='login-card xl:flex-row lg:flex sm:flex-col xs:flex-col mt-[27px] pt-[14px] pl-[25px] pr-[50px] d-[50px] mx-auto lg:w-[810px] lg:h-[264.8px] sm:h-screen bg-[#FFFFFF]'>
+				<div className='phn-password mr-[50px] lg:w-[380px] lg:h-[182.8px]'>
 					<form>
 						<div className='form-control phn-emil mb-[17px]'>
 							<label className='label'>
@@ -83,6 +96,7 @@ const Login = () => {
 					</div>
 					<div className='google-login mb-12'>
 						<button
+							onClick={() => signInWithGoogle()}
 							className='bg-[#D34836] rounded-[3px] 
 						h-[40px] font-[sans-serif] w-full text-[#fff] text-[18px]'
 						>
