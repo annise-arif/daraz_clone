@@ -1,18 +1,46 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { IoIosArrowForward } from 'react-icons/io';
 import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa';
-import auth from '../../firebase.init';
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
+import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+import auth from '../../firebase.init';
+
 
 const Register = () => {
 	const phnNumberRef = useRef('');
 	const passwordRef = useRef('');
-
 	const navigate = useNavigate();
 	const location = useLocation();
 	let from = location.state?.from?.pathname || "/";
+	
+
+	
+
+	// phone auth start
+	const [phone, setPhone] = useState('');
+	const [otp, setOtp] = useState("");
+
+
+	
+	const sendOtp = async() => {
+		try{
+			let recaptchaVerifier = await new RecaptchaVerifier("recaptcha",{},auth);
+			  let confirmation =  await signInWithPhoneNumber(auth,phone,recaptchaVerifier);
+			  console.log(confirmation);
+		}catch(err) {
+			console.log(err)
+		}
+	}
+	const verifyOtp = () =>{}
+	const logOut = () =>{}
+	// phone auth end
+	
+
+	// google auth start
 	const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+	// google auth end
+
 	if(loading){
 		return 'loading';
 	}
@@ -20,34 +48,16 @@ const Register = () => {
 	  navigate(from, { replace: true});
 	}
   
-	// let errorElement;
-	// const [
-	//   createUserWithEmailAndPassword,
-	//   user,
-	//   loading,
-	//   error,
-	// ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
 	
-	// if(loading){
-	//   return "Loading"
-	// }
-  
-	// if(error){
-	//   errorElement = <p className='text-danger'> Error: {error?.message}</p>  
-	// }
-  
-	// if(user){
-	//   navigate('/');
-	// }
 
 	const handleRegisterForm = (event) => {
 		event.preventDefault();
-		// const email = emailRef.current.value;
+		// const phoneNumber = phnNumberRef.current.value;
 		// const password = passwordRef.current.value;
 		// if(email && password){
 		//   createUserWithEmailAndPassword(email, password);
 		// }
-		// console.log(email, password);
+		console.log();
 	  };
 
 	 
@@ -76,6 +86,7 @@ const Register = () => {
 								<span className='label-text text-[12.1px] -ml-[4px] -mb-[5px]'>Phone Number*</span>
 							</label>
 							<input
+								onChange={(e) => setPhone(e.target.value)}
 								ref={phnNumberRef}
 								type='number'
 								placeholder='Please enter your Phone Number or Email'
@@ -84,19 +95,21 @@ const Register = () => {
 						</div>
 
 						<div className='get-sms-code-slide bg-[#D4F3EB] rounded-md mb-[9px]'>
-							<div className='slide-container flex h-[40px]'>
-								<div className='z-50 absolute right-arrow h-[40px] rounded-none w-[40px] bg-[#19bd94] shadow-[0px_3px_10px_0.5px_#0becb4]'>
-									<span className='flex justify-center mt-[11px]'>
-										<IoIosArrowForward className='text-[17.5px] text-white' />
-										<IoIosArrowForward className='text-[17.5px] text-[#f8f8f8ce] -ml-[12px]' />
-									</span>
-								</div>								
-								<div className='slide-text flex-grow text-[#1dd4a7] text-center mt-2'>
-									<a href='' className='text-[14px]'>
-										Slide to get SMS Code
-									</a>
-								</div>
-							</div>
+						<div id="recaptcha"></div>	
+						<div className='slide-container flex h-[40px]'>
+								 <div className='z-30 absolute right-arrow h-[40px] rounded-none w-[40px] bg-[#19bd94] shadow-[0px_3px_10px_0.5px_#0becb4]'>
+								 
+								 <span className='flex justify-center mt-[11px]'>
+										 <IoIosArrowForward className='text-[17.5px] text-white' />
+										 <IoIosArrowForward className='text-[17.5px] text-[#f8f8f8ce] -ml-[12px]' />
+									 </span>
+									 
+								 </div>						
+								 <button onClick={sendOtp} className='text-[14px] slide-text flex-grow text-[#1dd4a7] text-center'>
+									 Slide to get SMS Code
+								 </button>
+							 </div>
+							  
 						</div>
 
 						<div className='form-control register-password mb-[21px]'>
@@ -285,9 +298,9 @@ const Register = () => {
 					</div>
 					{/* Login */}
 					<div className='signUp-button mt-[13px]'>
-						<button className='bg-[#f57224] rounded-[3px] pb- h-[48px] w-full text-white text-[14px]'>
-							SIGN UP
-						</button>
+						<input type='submit' value="SIGN UP" className='bg-[#f57224] hover:bg-[#d35a0a] transition duration-500 ease-in-out rounded-[3px] pb- h-[48px] w-full text-white text-[14px] cursor-pointer'>
+							
+						</input>
 					</div>
 					{/* end */}
 
