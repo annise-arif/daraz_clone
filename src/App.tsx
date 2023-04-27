@@ -5,6 +5,7 @@ import Navbar from './Share/Navbar/Navbar';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import NavMenuCategory from './Share/NavMenuCategory/NavMenuCategory';
+import ProductDetails from './pages/ProductDetails/ProductDetails';
 
 function App() {
 	const router = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
 		{
 			path: '/register',
 			element: <><NavMenuCategory /> <Register/></>,	
+		},
+		{
+			path: '/product-details',
+			element: <><NavMenuCategory /> <ProductDetails/></>,	
 		}
 		
 	])

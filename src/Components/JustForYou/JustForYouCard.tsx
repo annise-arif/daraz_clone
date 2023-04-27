@@ -1,4 +1,5 @@
 import Stars from './Stars';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 type JUST_FOR_YOU = {
 	id: number;
@@ -8,9 +9,18 @@ type JUST_FOR_YOU = {
 	old_price: string;
 	purcent: string;
 };
+
+const viewSingleProduct = (_id: Number) => {
+	const navigate = useNavigate();
+	// <Navigate to='product-details' replace={true}/>;
+	navigate('/product-details', {replace: true});
+};
 const JustForYouCard = ({ items }: any) => {
 	return (
-		<div className='card cursor-pointer mt-2 flash_sale_card w-[189px] rounded-none p-0 m-0 h-[325px] bg-base-100 hover:shadow-[1px_3px_5px_0.6px_#00000024]'>
+		<div
+			onClick={() => viewSingleProduct(items._id)}
+			className='card cursor-pointer mt-2 flash_sale_card w-[189px] rounded-none p-0 m-0 h-[325px] bg-base-100 hover:shadow-[1px_3px_5px_0.6px_#00000024]'
+		>
 			<img src={items.img} alt='Shoes' className='w-[189px] h-[189px]' />
 
 			<div className='px-2'>

@@ -11,7 +11,7 @@ const Login = () => {
 	let from = location.state?.from?.pathname || "/";
 	const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
 	if(loading){
-		return 'loading';
+		return <span>loading</span>;
 	}
 	if (user) {
 		navigate(from, { replace: true});

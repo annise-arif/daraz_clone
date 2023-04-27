@@ -42,7 +42,7 @@ const Register = () => {
 	// google auth end
 
 	if(loading){
-		return 'loading';
+		return <span>loading</span>;
 	}
 	if (user) {
 	  navigate(from, { replace: true});
@@ -95,7 +95,7 @@ const Register = () => {
 						</div>
 
 						<div className='get-sms-code-slide bg-[#D4F3EB] rounded-md mb-[9px]'>
-						<div id="recaptcha"></div>	
+							
 						<div className='slide-container flex h-[40px]'>
 								 <div className='z-30 absolute right-arrow h-[40px] rounded-none w-[40px] bg-[#19bd94] shadow-[0px_3px_10px_0.5px_#0becb4]'>
 								 
@@ -110,7 +110,7 @@ const Register = () => {
 								 </button>
 							 </div>
 							  
-						</div>
+						</div><div id="recaptcha"></div>
 
 						<div className='form-control register-password mb-[21px]'>
 							<label className='label'>
