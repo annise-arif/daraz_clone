@@ -31,17 +31,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 139,
-						title: 'Party Kameez &amp; Gowns',
+						title: 'Party Kameez & Gowns',
 						link: '',
 					},
 					{
 						id: 140,
-						title: 'Palazzo Pants &amp; Culottes',
+						title: 'Palazzo Pants & Culottes',
 						link: '',
 					},
 					{
 						id: 141,
-						title: 'Pants, Palazzos &amp; Capris',
+						title: 'Pants, Palazzos & Capris',
 						link: '',
 					},
 				],
@@ -53,7 +53,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 142,
-						title: 'Abayas &amp; Long Dresses',
+						title: 'Abayas & Long Dresses',
 						link: '',
 					},
 					{
@@ -122,12 +122,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 153,
-						title: 'Robes &amp; Bodysuits',
+						title: 'Robes & Bodysuits',
 						link: '',
 					},
 					{
 						id: 154,
-						title: 'Sleep &amp; Loungewear',
+						title: 'Sleep & Loungewear',
 						link: '',
 					},
 					{
@@ -176,7 +176,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 161,
-						title: 'Crossbody &amp; Shoulder Bags',
+						title: 'Crossbody & Shoulder Bags',
 						link: '',
 					},
 					{
@@ -237,12 +237,12 @@ const NAV_ITEMS = [
 		childrens: [
 			{
 				id: 20,
-				title: 'Bath &amp; Body',
+				title: 'Bath & Body',
 				link: '',
 				childrens: [
 					{
 						id: 170,
-						title: 'Body &amp; Massage Oils',
+						title: 'Body & Massage Oils',
 						link: '',
 					},
 					{
@@ -257,7 +257,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 173,
-						title: 'Body Soaps &amp; Shower Gels',
+						title: 'Body Soaps & Shower Gels',
 						link: '',
 					},
 					{
@@ -282,7 +282,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 178,
-						title: 'Bath &amp; Body Accessories',
+						title: 'Bath & Body Accessories',
 						link: '',
 					},
 				],
@@ -294,7 +294,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 179,
-						title: 'Curling Irons &amp; Wands',
+						title: 'Curling Irons & Wands',
 						link: '',
 					},
 					{
@@ -329,7 +329,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 186,
-						title: 'Slimming &amp; Electric Massagers',
+						title: 'Slimming & Electric Massagers',
 						link: '',
 					},
 				],
@@ -383,7 +383,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 194,
-						title: 'Hair Brushes &amp; Combs',
+						title: 'Hair Brushes & Combs',
 						link: '',
 					},
 					{
@@ -398,7 +398,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 197,
-						title: 'Wig &amp; Hair Extensions &amp; Pads',
+						title: 'Wig & Hair Extensions & Pads',
 						link: '',
 					},
 					{
@@ -435,12 +435,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 203,
-						title: 'Palettes &amp; Sets',
+						title: 'Palettes & Sets',
 						link: '',
 					},
 					{
 						id: 204,
-						title: 'Brushes &amp; Sets',
+						title: 'Brushes & Sets',
 						link: '',
 					},
 					{
@@ -472,7 +472,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 209,
-						title: 'Shaving &amp; Grooming',
+						title: 'Shaving & Grooming',
 						link: '',
 					},
 					{
@@ -509,7 +509,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 215,
-						title: 'Personal Safety &amp; Security',
+						title: 'Personal Safety & Security',
 						link: '',
 					},
 				],
@@ -521,22 +521,22 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 216,
-						title: 'Moisturizers &amp; Creams',
+						title: 'Moisturizers & Creams',
 						link: '',
 					},
 					{
 						id: 217,
-						title: 'Serum &amp; Essence',
+						title: 'Serum & Essence',
 						link: '',
 					},
 					{
 						id: 218,
-						title: 'Face Mask &amp; Packs',
+						title: 'Face Mask & Packs',
 						link: '',
 					},
 					{
 						id: 219,
-						title: 'Face Scrubs &amp; Exfoliators',
+						title: 'Face Scrubs & Exfoliators',
 						link: '',
 					},
 					{
@@ -546,12 +546,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 221,
-						title: 'Lip Balm &amp; Treatments',
+						title: 'Lip Balm & Treatments',
 						link: '',
 					},
 					{
 						id: 222,
-						title: 'Toner &amp; Mists',
+						title: 'Toner & Mists',
 						link: '',
 					},
 				],
@@ -605,12 +605,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 230,
-						title: 'Health Monitors &amp; Tests',
+						title: 'Health Monitors & Tests',
 						link: '',
 					},
 					{
 						id: 231,
-						title: 'Injury Support &amp; Braces',
+						title: 'Injury Support & Braces',
 						link: '',
 					},
 					{
@@ -620,17 +620,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 233,
-						title: 'Nebulizers &amp; Aspirators',
+						title: 'Nebulizers & Aspirators',
 						link: '',
 					},
 					{
 						id: 234,
-						title: 'Ointments &amp; Creams',
+						title: 'Ointments & Creams',
 						link: '',
 					},
 					{
 						id: 235,
-						title: 'Scales &amp; Body Fat Analyzers',
+						title: 'Scales & Body Fat Analyzers',
 						link: '',
 					},
 					{
@@ -642,7 +642,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 30,
-				title: 'Latest in Health &amp; Beauty',
+				title: 'Latest in Health & Beauty',
 				link: '',
 				childrens: [
 					{
@@ -672,7 +672,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 242,
-						title: 'Serum &amp; Essence',
+						title: 'Serum & Essence',
 						link: '',
 					},
 					{
@@ -692,7 +692,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 246,
-						title: 'Face Mask &amp; Packs',
+						title: 'Face Mask & Packs',
 						link: '',
 					},
 				],
@@ -721,14 +721,14 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 249,
-						title: 'School Bags &amp; Backpack',
+						title: 'School Bags & Backpack',
 						link: '',
 					},
 				],
 			},
 			{
 				id: 32,
-				title: 'Laptop Bags &amp; Cases',
+				title: 'Laptop Bags & Cases',
 				link: '',
 				childrens: [
 					{
@@ -748,7 +748,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 253,
-						title: 'Shoulder &amp; Messenger Bags',
+						title: 'Shoulder & Messenger Bags',
 						link: '',
 					},
 				],
@@ -1391,7 +1391,7 @@ const NAV_ITEMS = [
 		childrens: [
 			{
 				id: 52,
-				title: 'Diapering &amp; Potty',
+				title: 'Diapering & Potty',
 				link: '',
 				childrens: [
 					{
@@ -1463,7 +1463,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 370,
-						title: 'Baby &amp; Toddler Foods',
+						title: 'Baby & Toddler Foods',
 						link: '',
 					},
 					{
@@ -1535,17 +1535,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 383,
-						title: 'Bathing Tubs &amp; Toys',
+						title: 'Bathing Tubs & Toys',
 						link: '',
 					},
 					{
 						id: 384,
-						title: 'Shampoo &amp; Conditioners',
+						title: 'Shampoo & Conditioners',
 						link: '',
 					},
 					{
 						id: 385,
-						title: 'Lotions &amp; Creams',
+						title: 'Lotions & Creams',
 						link: '',
 					},
 					{
@@ -1560,17 +1560,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 388,
-						title: 'Soaps &amp; Body Wash',
+						title: 'Soaps & Body Wash',
 						link: '',
 					},
 					{
 						id: 389,
-						title: 'Toothbrushes &amp; Toothpaste',
+						title: 'Toothbrushes & Toothpaste',
 						link: '',
 					},
 					{
 						id: 390,
-						title: 'Washcloths &amp; Towels',
+						title: 'Washcloths & Towels',
 						link: '',
 					},
 					{
@@ -1607,22 +1607,22 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 396,
-						title: 'Kids Bags &amp; Luggage',
+						title: 'Kids Bags & Luggage',
 						link: '',
 					},
 					{
 						id: 397,
-						title: 'Playards &amp; Playpens',
+						title: 'Playards & Playpens',
 						link: '',
 					},
 					{
 						id: 398,
-						title: 'Strollers &amp; Prams',
+						title: 'Strollers & Prams',
 						link: '',
 					},
 					{
 						id: 399,
-						title: 'Bouncers &amp; Jumpers',
+						title: 'Bouncers & Jumpers',
 						link: '',
 					},
 					{
@@ -1664,7 +1664,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 406,
-						title: 'Cribs &amp; Cradles',
+						title: 'Cribs & Cradles',
 						link: '',
 					},
 					{
@@ -1674,12 +1674,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 408,
-						title: 'Blankets &amp; Wrappers',
+						title: 'Blankets & Wrappers',
 						link: '',
 					},
 					{
 						id: 409,
-						title: 'Baby Pillows &amp; Protection',
+						title: 'Baby Pillows & Protection',
 						link: '',
 					},
 					{
@@ -1689,12 +1689,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 411,
-						title: 'Baby Quilts &amp; Bed Covers',
+						title: 'Baby Quilts & Bed Covers',
 						link: '',
 					},
 					{
 						id: 412,
-						title: 'Storage &amp; Organization',
+						title: 'Storage & Organization',
 						link: '',
 					},
 					{
@@ -1736,12 +1736,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 419,
-						title: 'Maternity Tops &amp; Intimates',
+						title: 'Maternity Tops & Intimates',
 						link: '',
 					},
 					{
 						id: 420,
-						title: 'Moisturizers &amp; Creams',
+						title: 'Moisturizers & Creams',
 						link: '',
 					},
 					{
@@ -1763,7 +1763,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 58,
-				title: 'Baby Care &amp; Gifts',
+				title: 'Baby Care & Gifts',
 				link: '',
 				childrens: [
 					{
@@ -1778,12 +1778,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 426,
-						title: 'Masks &amp; Repellents',
+						title: 'Masks & Repellents',
 						link: '',
 					},
 					{
 						id: 427,
-						title: 'Safety &amp; Straps',
+						title: 'Safety & Straps',
 						link: '',
 					},
 					{
@@ -1798,7 +1798,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 430,
-						title: 'Albums, Frames &amp; Journals',
+						title: 'Albums, Frames & Journals',
 						link: '',
 					},
 					{
@@ -1815,32 +1815,32 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 432,
-						title: 'Action Figures &amp; Collectibles',
+						title: 'Action Figures & Collectibles',
 						link: '',
 					},
 					{
 						id: 433,
-						title: 'Arts &amp; Crafts for Kids',
+						title: 'Arts & Crafts for Kids',
 						link: '',
 					},
 					{
 						id: 434,
-						title: 'Ball Prit &amp; Accessories',
+						title: 'Ball Prit & Accessories',
 						link: '',
 					},
 					{
 						id: 435,
-						title: 'Block &amp; Building Toys',
+						title: 'Block & Building Toys',
 						link: '',
 					},
 					{
 						id: 436,
-						title: 'Doll &amp; Accessories',
+						title: 'Doll & Accessories',
 						link: '',
 					},
 					{
 						id: 437,
-						title: 'Dress Up &amp; Pretend Play',
+						title: 'Dress Up & Pretend Play',
 						link: '',
 					},
 					{
@@ -1850,7 +1850,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 439,
-						title: 'Learning &amp; Education',
+						title: 'Learning & Education',
 						link: '',
 					},
 					{
@@ -1865,7 +1865,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 442,
-						title: 'Slime &amp; Squishy Toys',
+						title: 'Slime & Squishy Toys',
 						link: '',
 					},
 					{
@@ -1877,12 +1877,12 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 60,
-				title: 'Baby &amp; Toddler Toys',
+				title: 'Baby & Toddler Toys',
 				link: '',
 				childrens: [
 					{
 						id: 444,
-						title: 'Activity Gym &amp; Playmats',
+						title: 'Activity Gym & Playmats',
 						link: '',
 					},
 					{
@@ -1897,7 +1897,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 447,
-						title: 'Crib Toys &amp; Attachments',
+						title: 'Crib Toys & Attachments',
 						link: '',
 					},
 					{
@@ -1907,7 +1907,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 449,
-						title: 'Indoor Climbers &amp; Structures',
+						title: 'Indoor Climbers & Structures',
 						link: '',
 					},
 					{
@@ -1917,7 +1917,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 451,
-						title: 'Rocking &amp; Spring Ride-Ons',
+						title: 'Rocking & Spring Ride-Ons',
 						link: '',
 					},
 					{
@@ -1929,7 +1929,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 61,
-				title: 'Remote Control &amp; Vehicles',
+				title: 'Remote Control & Vehicles',
 				link: '',
 				childrens: [
 					{
@@ -1986,7 +1986,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 62,
-				title: 'Sports &amp; Outdoor Play',
+				title: 'Sports & Outdoor Play',
 				link: '',
 				childrens: [
 					{
@@ -2591,7 +2591,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 75,
-				title: 'TV &amp; Video Device',
+				title: 'TV & Video Device',
 				link: '',
 				childrens: [
 					{
@@ -2611,7 +2611,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 566,
-						title: 'Wall Mounts &amp; Protectors',
+						title: 'Wall Mounts & Protectors',
 						link: '',
 					},
 					{
@@ -2623,7 +2623,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 76,
-				title: 'Cooling &amp; Heating',
+				title: 'Cooling & Heating',
 				link: '',
 				childrens: [
 					{
@@ -2655,7 +2655,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 572,
-						title: 'Cooktops &amp; Ranges',
+						title: 'Cooktops & Ranges',
 						link: '',
 					},
 					{
@@ -2983,7 +2983,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 625,
-						title: 'Headphones &amp; Headsets',
+						title: 'Headphones & Headsets',
 						link: '',
 					},
 					{
@@ -2998,7 +2998,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 628,
-						title: 'Live Sound &amp; Stage Equipment',
+						title: 'Live Sound & Stage Equipment',
 						link: '',
 					},
 					{
@@ -3025,7 +3025,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 632,
-						title: 'Fitness &amp; Activity Trackers',
+						title: 'Fitness & Activity Trackers',
 						link: '',
 					},
 					{
@@ -3079,12 +3079,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 640,
-						title: 'Mice &amp; Keyboard Combos',
+						title: 'Mice & Keyboard Combos',
 						link: '',
 					},
 					{
 						id: 641,
-						title: 'Power Cord &amp; Adaptors',
+						title: 'Power Cord & Adaptors',
 						link: '',
 					},
 				],
@@ -3180,7 +3180,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 656,
-						title: 'Fans &amp; Heatsinks',
+						title: 'Fans & Heatsinks',
 						link: '',
 					},
 					{
@@ -3296,22 +3296,22 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 675,
-						title: 'Lighting &amp; Studio Equipment',
+						title: 'Lighting & Studio Equipment',
 						link: '',
 					},
 					{
 						id: 676,
-						title: 'Tripods &amp; Monopods',
+						title: 'Tripods & Monopods',
 						link: '',
 					},
 					{
 						id: 677,
-						title: 'Gimbals &amp; Stabilizers',
+						title: 'Gimbals & Stabilizers',
 						link: '',
 					},
 					{
 						id: 678,
-						title: 'Sports &amp; Action Camera Accessories',
+						title: 'Sports & Action Camera Accessories',
 						link: '',
 					},
 					{
@@ -3357,7 +3357,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 96,
-				title: 'Breakfast, Choco &amp; Snacks',
+				title: 'Breakfast, Choco & Snacks',
 				link: '',
 				childrens: [
 					{
@@ -3399,17 +3399,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 690,
-						title: 'Grains, Beans &amp; Pulses',
+						title: 'Grains, Beans & Pulses',
 						link: '',
 					},
 					{
 						id: 691,
-						title: 'Home Baking &amp; Sugar',
+						title: 'Home Baking & Sugar',
 						link: '',
 					},
 					{
 						id: 692,
-						title: 'Instant &amp; Ready-to-Eat',
+						title: 'Instant & Ready-to-Eat',
 						link: '',
 					},
 					{
@@ -3441,7 +3441,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 697,
-						title: 'Herbs &amp; Spices',
+						title: 'Herbs & Spices',
 						link: '',
 					},
 					{
@@ -3453,7 +3453,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 99,
-				title: 'Laundry &amp; Household',
+				title: 'Laundry & Household',
 				link: '',
 				childrens: [
 					{
@@ -3500,12 +3500,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 706,
-						title: 'Toys &amp; Accessories',
+						title: 'Toys & Accessories',
 						link: '',
 					},
 					{
 						id: 707,
-						title: 'Litter &amp; Toilet',
+						title: 'Litter & Toilet',
 						link: '',
 					},
 				],
@@ -3527,12 +3527,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 710,
-						title: 'Toys &amp; Accessories',
+						title: 'Toys & Accessories',
 						link: '',
 					},
 					{
 						id: 711,
-						title: 'Carriers &amp; Travel',
+						title: 'Carriers & Travel',
 						link: '',
 					},
 					{
@@ -3542,7 +3542,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 713,
-						title: 'Leashes, Collars &amp; Muzzles',
+						title: 'Leashes, Collars & Muzzles',
 						link: '',
 					},
 				],
@@ -3554,7 +3554,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 714,
-						title: 'Aquariums &amp; Accessories',
+						title: 'Aquariums & Accessories',
 						link: '',
 					},
 					{
@@ -3588,7 +3588,7 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 718,
-						title: 'Food &amp; Accessories',
+						title: 'Food & Accessories',
 						link: '',
 					},
 				],
@@ -3649,7 +3649,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 726,
-						title: 'Shower Caddies &amp; Hangers',
+						title: 'Shower Caddies & Hangers',
 						link: '',
 					},
 					{
@@ -3681,12 +3681,12 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 731,
-						title: 'Towel Rails &amp; Warmers',
+						title: 'Towel Rails & Warmers',
 						link: '',
 					},
 					{
 						id: 732,
-						title: 'Bed Runners &amp; Skirts',
+						title: 'Bed Runners & Skirts',
 						link: '',
 					},
 					{
@@ -3706,12 +3706,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 736,
-						title: 'Blankets &amp; Throws',
+						title: 'Blankets & Throws',
 						link: '',
 					},
 					{
 						id: 737,
-						title: 'Comforters, Quilts &amp; Duvets',
+						title: 'Comforters, Quilts & Duvets',
 						link: '',
 					},
 					{
@@ -3748,17 +3748,17 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 743,
-						title: 'Brooms, Mops &amp; Sweepers',
+						title: 'Brooms, Mops & Sweepers',
 						link: '',
 					},
 					{
 						id: 744,
-						title: 'Brushes, Sponges &amp; Wipers',
+						title: 'Brushes, Sponges & Wipers',
 						link: '',
 					},
 					{
 						id: 745,
-						title: 'Cleaning Buckets &amp; Tubs',
+						title: 'Cleaning Buckets & Tubs',
 						link: '',
 					},
 					{
@@ -3773,17 +3773,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 748,
-						title: 'Dusters &amp; Dust Cloths',
+						title: 'Dusters & Dust Cloths',
 						link: '',
 					},
 					{
 						id: 749,
-						title: 'Garbage &amp; Recycling Bins',
+						title: 'Garbage & Recycling Bins',
 						link: '',
 					},
 					{
 						id: 750,
-						title: 'Trash Bags &amp; Liners',
+						title: 'Trash Bags & Liners',
 						link: '',
 					},
 				],
@@ -3795,12 +3795,12 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 751,
-						title: 'Clothes Hangers &amp; Pegs',
+						title: 'Clothes Hangers & Pegs',
 						link: '',
 					},
 					{
 						id: 752,
-						title: 'Clothes Line &amp; Drying Racks',
+						title: 'Clothes Line & Drying Racks',
 						link: '',
 					},
 					{
@@ -3810,12 +3810,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 754,
-						title: 'Laundry &amp; Ironing Tools',
+						title: 'Laundry & Ironing Tools',
 						link: '',
 					},
 					{
 						id: 755,
-						title: 'Laundry Bags &amp; Wash Balls',
+						title: 'Laundry Bags & Wash Balls',
 						link: '',
 					},
 				],
@@ -3837,12 +3837,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 758,
-						title: 'Baking Tools &amp; Accessories',
+						title: 'Baking Tools & Accessories',
 						link: '',
 					},
 					{
 						id: 759,
-						title: 'Baking Trays &amp; Pans',
+						title: 'Baking Trays & Pans',
 						link: '',
 					},
 					{
@@ -3859,12 +3859,12 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 111,
-				title: 'Coffee &amp; Tea',
+				title: 'Coffee & Tea',
 				link: '',
 				childrens: [
 					{
 						id: 762,
-						title: 'Coffee Makers &amp; Grinders',
+						title: 'Coffee Makers & Grinders',
 						link: '',
 					},
 					{
@@ -3874,12 +3874,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 764,
-						title: 'Coffee, Tea &amp; Espresso',
+						title: 'Coffee, Tea & Espresso',
 						link: '',
 					},
 					{
 						id: 765,
-						title: 'Creamer &amp; Sugar Bowls',
+						title: 'Creamer & Sugar Bowls',
 						link: '',
 					},
 					{
@@ -3894,7 +3894,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 768,
-						title: 'Teapots &amp; Coffee Servers',
+						title: 'Teapots & Coffee Servers',
 						link: '',
 					},
 				],
@@ -3916,17 +3916,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 771,
-						title: 'Dutch Oven &amp; Braziers',
+						title: 'Dutch Oven & Braziers',
 						link: '',
 					},
 					{
 						id: 772,
-						title: 'Griddle &amp; Grills',
+						title: 'Griddle & Grills',
 						link: '',
 					},
 					{
 						id: 773,
-						title: 'Pots &amp; Pans',
+						title: 'Pots & Pans',
 						link: '',
 					},
 					{
@@ -3941,7 +3941,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 776,
-						title: 'Steamers, Stock &amp; Pasta Pots',
+						title: 'Steamers, Stock & Pasta Pots',
 						link: '',
 					},
 					{
@@ -3956,14 +3956,14 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 779,
-						title: 'Woks &amp; Stir-Fry Pans',
+						title: 'Woks & Stir-Fry Pans',
 						link: '',
 					},
 				],
 			},
 			{
 				id: 113,
-				title: 'Tools, DIY &amp; Outdoor',
+				title: 'Tools, DIY & Outdoor',
 				link: '',
 				childrens: [
 					{
@@ -3973,7 +3973,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 781,
-						title: 'Fixtures &amp; Plumbing',
+						title: 'Fixtures & Plumbing',
 						link: '',
 					},
 					{
@@ -4000,17 +4000,17 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 114,
-				title: 'Stationery &amp; Craft',
+				title: 'Stationery & Craft',
 				link: '',
 				childrens: [
 					{
 						id: 786,
-						title: 'Gifts &amp; Wrapping',
+						title: 'Gifts & Wrapping',
 						link: '',
 					},
 					{
 						id: 787,
-						title: 'Packaging &amp; Cartons',
+						title: 'Packaging & Cartons',
 						link: '',
 					},
 					{
@@ -4020,7 +4020,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 789,
-						title: 'School &amp; Office Equipment',
+						title: 'School & Office Equipment',
 						link: '',
 					},
 					{
@@ -4047,7 +4047,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 115,
-				title: 'Media &amp; Music',
+				title: 'Media & Music',
 				link: '',
 				childrens: [
 					{
@@ -4062,7 +4062,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 796,
-						title: 'Keyboards &amp; Piano',
+						title: 'Keyboards & Piano',
 						link: '',
 					},
 					{
@@ -4072,7 +4072,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 798,
-						title: 'Drums &amp; Percussion',
+						title: 'Drums & Percussion',
 						link: '',
 					},
 					{
@@ -4082,7 +4082,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 800,
-						title: 'DJ, Karaoke &amp; Electronic Music',
+						title: 'DJ, Karaoke & Electronic Music',
 						link: '',
 					},
 					{
@@ -4158,7 +4158,7 @@ const NAV_ITEMS = [
 		childrens: [
 			{
 				id: 117,
-				title: 'Exercise &amp; Fitness',
+				title: 'Exercise & Fitness',
 				link: '',
 				childrens: [
 					{
@@ -4188,7 +4188,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 817,
-						title: 'Dumbbells &amp; Weight',
+						title: 'Dumbbells & Weight',
 						link: '',
 					},
 					{
@@ -4343,7 +4343,7 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 122,
-				title: 'Boxing &amp; Martial Arts',
+				title: 'Boxing & Martial Arts',
 				link: '',
 				childrens: [
 					{
@@ -4363,14 +4363,14 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 845,
-						title: 'Punching Bags &amp; Accessories',
+						title: 'Punching Bags & Accessories',
 						link: '',
 					},
 				],
 			},
 			{
 				id: 123,
-				title: 'Shoes &amp; Clothing',
+				title: 'Shoes & Clothing',
 				link: '',
 				childrens: [
 					{
@@ -4452,14 +4452,14 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 860,
-						title: 'Canoes &amp; Kayaks',
+						title: 'Canoes & Kayaks',
 						link: '',
 					},
 				],
 			},
 			{
 				id: 125,
-				title: 'Camping &amp; Hiking',
+				title: 'Camping & Hiking',
 				link: '',
 				childrens: [
 					{
@@ -4551,7 +4551,7 @@ const NAV_ITEMS = [
 		childrens: [
 			{
 				id: 127,
-				title: 'Oil &amp; Fluids',
+				title: 'Oil & Fluids',
 				link: '',
 				childrens: [
 					{
@@ -4571,12 +4571,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 877,
-						title: 'Greases &amp; Lubricants',
+						title: 'Greases & Lubricants',
 						link: '',
 					},
 					{
 						id: 878,
-						title: 'Lubricants &amp; Solvents',
+						title: 'Lubricants & Solvents',
 						link: '',
 					},
 					{
@@ -4603,12 +4603,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 882,
-						title: 'Consoles &amp; Organizers',
+						title: 'Consoles & Organizers',
 						link: '',
 					},
 					{
 						id: 883,
-						title: 'Seat Covers &amp; Accessories',
+						title: 'Seat Covers & Accessories',
 						link: '',
 					},
 					{
@@ -4618,12 +4618,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 885,
-						title: 'Steering Wheels &amp; Accessories',
+						title: 'Steering Wheels & Accessories',
 						link: '',
 					},
 					{
 						id: 886,
-						title: 'Floor Mats &amp; Cargo Liners',
+						title: 'Floor Mats & Cargo Liners',
 						link: '',
 					},
 					{
@@ -4633,7 +4633,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 888,
-						title: 'Pedals &amp; Pedal Accessories',
+						title: 'Pedals & Pedal Accessories',
 						link: '',
 					},
 				],
@@ -4645,17 +4645,17 @@ const NAV_ITEMS = [
 				childrens: [
 					{
 						id: 889,
-						title: 'Bumper Stickers, Decals &amp; Magnets',
+						title: 'Bumper Stickers, Decals & Magnets',
 						link: '',
 					},
 					{
 						id: 890,
-						title: 'License Plate Covers &amp; Frames',
+						title: 'License Plate Covers & Frames',
 						link: '',
 					},
 					{
 						id: 891,
-						title: 'Horns &amp; Accessories',
+						title: 'Horns & Accessories',
 						link: '',
 					},
 					{
@@ -4670,12 +4670,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 894,
-						title: 'Bumpers &amp; Bumper Accessories',
+						title: 'Bumpers & Bumper Accessories',
 						link: '',
 					},
 					{
 						id: 895,
-						title: 'Roll Bars, Roll Cages &amp; Covers',
+						title: 'Roll Bars, Roll Cages & Covers',
 						link: '',
 					},
 					{
@@ -4692,12 +4692,12 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 130,
-				title: 'Car Parts &amp; Spares',
+				title: 'Car Parts & Spares',
 				link: '',
 				childrens: [
 					{
 						id: 898,
-						title: 'Lighting &amp; Electrical',
+						title: 'Lighting & Electrical',
 						link: '',
 					},
 					{
@@ -4707,7 +4707,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 900,
-						title: 'Alternators &amp; Generators',
+						title: 'Alternators & Generators',
 						link: '',
 					},
 					{
@@ -4717,7 +4717,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 902,
-						title: 'Ignition &amp; Electrical',
+						title: 'Ignition & Electrical',
 						link: '',
 					},
 					{
@@ -4727,17 +4727,17 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 904,
-						title: 'Engine Cooling &amp; Climate Control',
+						title: 'Engine Cooling & Climate Control',
 						link: '',
 					},
 					{
 						id: 905,
-						title: 'Exhaust &amp; Emissions',
+						title: 'Exhaust & Emissions',
 						link: '',
 					},
 					{
 						id: 906,
-						title: 'Starters &amp; Parts',
+						title: 'Starters & Parts',
 						link: '',
 					},
 					{
@@ -4784,12 +4784,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 914,
-						title: 'Jackets &amp; Vests',
+						title: 'Jackets & Vests',
 						link: '',
 					},
 					{
 						id: 915,
-						title: 'Chest &amp; Back Protectors',
+						title: 'Chest & Back Protectors',
 						link: '',
 					},
 					{
@@ -4804,7 +4804,7 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 918,
-						title: 'Knee &amp; Shin Protection',
+						title: 'Knee & Shin Protection',
 						link: '',
 					},
 					{
@@ -4816,32 +4816,32 @@ const NAV_ITEMS = [
 			},
 			{
 				id: 132,
-				title: 'Motorcylce Parts &amp; Spares',
+				title: 'Motorcylce Parts & Spares',
 				link: '',
 				childrens: [
 					{
 						id: 920,
-						title: 'Decals &amp; Emblems',
+						title: 'Decals & Emblems',
 						link: '',
 					},
 					{
 						id: 921,
-						title: 'Luggage &amp; Saddlebags',
+						title: 'Luggage & Saddlebags',
 						link: '',
 					},
 					{
 						id: 922,
-						title: 'Drivetrain &amp; Transmission',
+						title: 'Drivetrain & Transmission',
 						link: '',
 					},
 					{
 						id: 923,
-						title: 'Body &amp; Frame',
+						title: 'Body & Frame',
 						link: '',
 					},
 					{
 						id: 924,
-						title: 'Exhaust &amp; Accessories',
+						title: 'Exhaust & Accessories',
 						link: '',
 					},
 					{
@@ -4851,12 +4851,12 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 926,
-						title: 'Brakes &amp; Suspension',
+						title: 'Brakes & Suspension',
 						link: '',
 					},
 					{
 						id: 927,
-						title: 'Air Intake &amp; Fuel Delivery',
+						title: 'Air Intake & Fuel Delivery',
 						link: '',
 					},
 				],
@@ -4873,27 +4873,27 @@ const NAV_ITEMS = [
 					},
 					{
 						id: 929,
-						title: 'Car Polishes &amp; Waxes',
+						title: 'Car Polishes & Waxes',
 						link: '',
 					},
 					{
 						id: 930,
-						title: 'Paints &amp; Primers',
+						title: 'Paints & Primers',
 						link: '',
 					},
 					{
 						id: 931,
-						title: 'Polishing &amp; Waxing Kits',
+						title: 'Polishing & Waxing Kits',
 						link: '',
 					},
 					{
 						id: 932,
-						title: 'Tire &amp; Wheel Care',
+						title: 'Tire & Wheel Care',
 						link: '',
 					},
 					{
 						id: 933,
-						title: 'Polishing &amp; Rubbing Compounds',
+						title: 'Polishing & Rubbing Compounds',
 						link: '',
 					},
 				],

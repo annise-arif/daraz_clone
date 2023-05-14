@@ -22,7 +22,7 @@ function App() {
 			element: <><NavMenuCategory /> <Register/></>,	
 		},
 		{
-			path: '/product-details',
+			path: '/product-details/:_id',
 			element: <><NavMenuCategory /> <ProductDetails/></>,	
 		}
 		

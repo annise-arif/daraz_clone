@@ -1,8 +1,8 @@
-import JusfForYou from '../../API/JusfForYou';
+import JusForYouProductsData from '../../API/JustForYou';
 import JustForYouCard from './JustForYouCard';
 
 const JustForYou = () => {
-   const services = JusfForYou();
+   const services = JusForYouProductsData();
     return (
         <div className='justify-center align-middle w-[63%] mx-auto pb-2.5'>
             <h3 className='text-[22px] text-gray-900'>JustForYou</h3>

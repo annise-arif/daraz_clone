@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-const JusfForYou = () => {
+const JustForYou = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('https://daraz-server.vercel.app/services')
@@ -10,4 +10,4 @@ const JusfForYou = () => {
     return services;
 };
 
-export default JusfForYou;
+export default JustForYou;
