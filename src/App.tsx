@@ -6,6 +6,7 @@ import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import NavMenuCategory from './Share/NavMenuCategory/NavMenuCategory';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
+import Cart from './pages/Cart/Cart';
 
 function App() {
 	const router = createBrowserRouter([
@@ -24,6 +25,10 @@ function App() {
 		{
 			path: '/product-details/:_id',
 			element: <><NavMenuCategory /> <ProductDetails/></>,	
+		},
+		{
+			path: '/card',
+			element: <><NavMenuCategory /> <Cart/></>,	
 		}
 		
 	])

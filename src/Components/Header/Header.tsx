@@ -2,6 +2,7 @@ import Logo from '../../assets/Logo/Logo.png';
 import Search from '../../assets/Svg/search_FILL0_wght400_GRAD0_opsz48.svg';
 import Cart from '../../assets/Svg/cart.svg';
 import DownloadApp from '../../assets/Logo/img.png';
+import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<div className='bg-white'>
@@ -24,9 +25,9 @@ const Header = () => {
 				</div>
 
 				<div className='cart-icon mt-[0.8%] px-7'>
-					<button>
+				<a href='/card'>
 						<img src={Cart} alt='cart-svg' />
-					</button>
+					</a>
 				</div>
 
 				<div className='download-app-img grow-0 pr-9 pl-6'>

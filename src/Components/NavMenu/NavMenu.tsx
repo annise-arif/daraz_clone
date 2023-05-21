@@ -62,7 +62,7 @@ const RenderSingleItem = ({ data }: { data: (typeof NAV_ITEMS)[0] }) => {
 		<React.Fragment>
 			<li className={`nav-item group top-0`}>
 				<a
-					className='py-[3.8px] pl-[8px] active:text-[rgb(50,146,170)] flex justify-between group hover:bg-[rgb(236,239,241)]'
+					className='py-[3.8px] pl-[8px] hover:text-[rgb(50,146,170)] flex justify-between group hover:bg-[rgb(236,239,241)]'
 					href='/'
 				>
 					{data.title}

@@ -25,7 +25,7 @@ const Register = () => {
 	
 	const sendOtp = async() => {
 		try{
-			let recaptchaVerifier = await new RecaptchaVerifier("recaptcha",{},auth);
+			let recaptchaVerifier = new RecaptchaVerifier("recaptcha",{},auth);
 			  let confirmation =  await signInWithPhoneNumber(auth,phone,recaptchaVerifier);
 			  console.log(confirmation);
 		}catch(err) {
